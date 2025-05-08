@@ -5,6 +5,6 @@ It is recommended to run this notebook in your local development environment, as
 
 The notebook is structured into three main sections:
 
-1. **Utility Functions** – Helper functions used throughout the script.  
-2. **Interactive Torus Generation** – The main section for interactively generating torus meshes.  
-3. **PLY File Export** – A script to export generated torus meshes as `.ply` files.
+1. **Utility Functions** – 4 helper functions used throughout the script.  
+2. **Interactive Torus Generation** – The interactive torus meshes generation.  
+3. **File Export** – A script to export generated torus meshes as `.ply` files.
