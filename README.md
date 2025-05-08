@@ -19,6 +19,8 @@ coords = np.linspace(-1, 1, 100)
 x = np.stack(np.meshgrid(coords, coords, coords))
 ```
 
+The grid will look something like this:
+
 ![image](https://github.com/user-attachments/assets/135be419-9007-47ac-b898-f8ff52e421a9)
 
 
