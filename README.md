@@ -38,7 +38,8 @@ verts, faces, normals, values = measure.marching_cubes(sdf, level=0)
 
 The torus base will look something like this:
 
-![image](https://github.com/user-attachments/assets/6b6b4754-d4d9-4e91-b6de-c73eee623ca7)
+<img src="https://github.com/user-attachments/assets/6b6b4754-d4d9-4e91-b6de-c73eee623ca7" alt="Base Torus" width="300"/>
+
 
 
 
