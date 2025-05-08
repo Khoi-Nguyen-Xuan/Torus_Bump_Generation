@@ -39,6 +39,30 @@ The torus base will look something like this:
 
 <img src="https://github.com/user-attachments/assets/6b6b4754-d4d9-4e91-b6de-c73eee623ca7" alt="Base Torus" width="400"/>
 
+### Step 3: Noise field creation
+
+To add some irregularities to the surface, we generate a 3D gradient noise field. This noise perturbs the spatial grid, introducing surface distortion before applying any bumps. 
+
+```python
+x_warp = gradient_noise(x, noise_scale, noise_strength, seed)
+```
+
+### Step 4:  Bump field creation (Gaussian bump)
+
+A localized "bump" is created on the torus surface by using a 3D Gaussian function. The center of the bump moves along a circular path (the torus tube) based on a angle parameter.
+
+- bump_angle :the angular position of the bump along the torus.
+- gaussian_center : the center of the bump.
+- x_dist :the distance from each point in the grid to the bump center.
+- x_bump :a smooth, localized elevation using the Gaussian formula.
+
+```python 
+angle = np.pi * bump_angle
+gaussian_center = np.array([np.sin(angle), 0., np.cos(angle)]) * radius
+x_dist = np.linalg.norm((x - gaussian_center[:, None, None, None]), axis=0)
+x_bump = bump_height * np.exp(-1. / bump_width * x_dist**2)
+```
+
 
 
 
