@@ -92,7 +92,7 @@ The final torus will have a bump looking like this:
 
 <img width="400" alt="Screenshot 2025-05-08 at 4 57 12 PM" src="https://github.com/user-attachments/assets/49ee560a-dbe6-44ec-b795-2c2ae427501c" />
 
-#Continuous varitions
+# Continuous varitions
 
 The script has three parameters for customizing the bump:
 
