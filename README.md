@@ -1,4 +1,4 @@
-# Torus Generation with continuous variation options 
+# Torus Generation with continuous variations
 
 The script is located in `torus_generation.ipynb`, provided in Jupyter Notebook format. I recommended to run this notebook in local IDE, because some required libraries cannot be installed in Google Colab. 
 
@@ -22,6 +22,26 @@ x = np.stack(np.meshgrid(coords, coords, coords))
 The grid will look something like this:
 
 ![image](https://github.com/user-attachments/assets/135be419-9007-47ac-b898-f8ff52e421a9)
+
+
+### Step 2: Base Torus Creation with SDF
+
+We generate the base torus (without the bump) using SDF implementation from [Inigo Quilez](https://iquilezles.org/articles/distfunctions/).  
+The SDF is then converted into a mesh using the `marching_cubes` algorithm from `skimage`.
+
+The SDF formula explanation is commented in the **Utilities** section of the notebook.
+
+```python
+sdf = sdf_torus(x, radius, thickness)  #Get SDF 
+verts, faces, normals, values = measure.marching_cubes(sdf, level=0)
+```
+
+The torus base will look something like this:
+
+![image](https://github.com/user-attachments/assets/6b6b4754-d4d9-4e91-b6de-c73eee623ca7)
+
+
+
 
 
 
