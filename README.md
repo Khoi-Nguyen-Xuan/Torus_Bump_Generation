@@ -1,2 +1,2 @@
-# Torus_Bump_Generation
+# Torus Generation with continuous variation options 
 
