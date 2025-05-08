@@ -92,10 +92,19 @@ The final torus will have a bump looking like this:
 
 <img width="659" alt="Screenshot 2025-05-08 at 4 57 12 PM" src="https://github.com/user-attachments/assets/49ee560a-dbe6-44ec-b795-2c2ae427501c" />
 
+#Continuous varitions
 
-#
+The script has three parameters for customizing the bump:
 
+- **Bump Angle** – Multiplied by π to control the bump's position around the torus.
+- **Bump Width** – Controls the spread of the Gaussian bump.
+- **Bump Height** – Determines the bump's amplitude.
 
+Additionally, you can also adjust the **noise strength** and **noise scale** to vary the surface distortion.
+
+<img width="362" alt="Interactive Torus Variations" src="https://github.com/user-attachments/assets/55f30b44-f9ff-4eda-9d36-1a45145fa690" />
+
+As shown above, different combinations in the interactive sliders result in a different torus variations.
 
 
 
