@@ -21,8 +21,7 @@ x = np.stack(np.meshgrid(coords, coords, coords))
 
 The grid will look something like this:
 
-![image](https://github.com/user-attachments/assets/135be419-9007-47ac-b898-f8ff52e421a9)
-
+<img src="https://github.com/user-attachments/assets/135be419-9007-47ac-b898-f8ff52e421a9" alt="Base Torus" width="400"/>
 
 ### Step 2: Base Torus Creation with SDF
 
@@ -38,7 +37,7 @@ verts, faces, normals, values = measure.marching_cubes(sdf, level=0)
 
 The torus base will look something like this:
 
-<img src="https://github.com/user-attachments/assets/6b6b4754-d4d9-4e91-b6de-c73eee623ca7" alt="Base Torus" width="300"/>
+<img src="https://github.com/user-attachments/assets/6b6b4754-d4d9-4e91-b6de-c73eee623ca7" alt="Base Torus" width="400"/>
 
 
 
