@@ -9,7 +9,7 @@ The notebook is structured into three main sections:
 3. **File Export** – A script to export generated torus meshes as `.ply` files.
 
 
-Although the script includes extensive comments, I will brief the key steps behind the torus generation with a bump moving around.
+# Key steps behind the torus generation with a bump moving around
 
 ### Step 1: 3D Grid Generation
 
@@ -93,7 +93,7 @@ The final torus will have a bump looking like this:
 <img width="659" alt="Screenshot 2025-05-08 at 4 57 12 PM" src="https://github.com/user-attachments/assets/49ee560a-dbe6-44ec-b795-2c2ae427501c" />
 
 
-
+#
 
 
 
