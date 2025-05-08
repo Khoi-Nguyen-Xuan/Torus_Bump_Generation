@@ -8,8 +8,8 @@ The notebook is structured into three main sections:
 2. **Interactive Torus Generation** – The interactive torus meshes generation.  
 3. **File Export** – A script to export generated torus meshes as `.ply` files.
 
-Although the script includes extensive comments, I will brief the key steps behind the torus generation with a bump moving around.
 
+Although the script includes extensive comments, I will brief the key steps behind the torus generation with a bump moving around.
 
 ### Step 1: 3D Grid Generation
 
