@@ -1,6 +1,6 @@
 # Torus Generation with continuous variations
 
-The script is located in `torus_generation.ipynb`, provided in Jupyter Notebook format. I recommended to run this notebook in local IDE, because some required libraries cannot be installed in Google Colab. 
+The script is located in `torus_generation.ipynb`, provided in Jupyter Notebook format. I recommended to run this notebook in local IDE, because some required libraries cannot be installed in Google Colab. The code is implemented from the original notebook: https://colab.research.google.com/drive/1zuq2qE-gHy4jpeWx7rw7rFFGFBipDNwH
 
 The notebook is structured into three main sections:
 
